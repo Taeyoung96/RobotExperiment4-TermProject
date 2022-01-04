@@ -1,0 +1,116 @@
+﻿  stdafx.cpp
+  COCX.cpp
+  Comm.cpp
+  CommWork.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\commwork.cpp(58): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\commwork.cpp(59): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\commwork.cpp(60): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  DeviceListReader.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\devicelistreader.cpp(94): error C2065: 'LkeyStr': undeclared identifier
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\devicelistreader.cpp(110): error C2440: 'initializing': cannot convert from 'TCHAR [20]' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\devicelistreader.cpp(110): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+  GraphDlg.cpp
+  NTGraph.cpp
+  ODE.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\ode.h(16): fatal error C1083: Cannot open include file: 'drawstuff\drawstuff.h': No such file or directory
+  ODEWork.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\ode.h(16): fatal error C1083: Cannot open include file: 'drawstuff\drawstuff.h': No such file or directory
+  RobotExp_4.cpp
+  RobotExp_4Dlg.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(145): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(145): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(146): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(146): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(147): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [3]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(147): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(148): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [4]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(148): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(150): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [4]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(150): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(151): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [4]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(151): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(152): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [4]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(152): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(256): error C2664: 'int CComboBox::AddString(LPCTSTR)': cannot convert argument 1 from 'const _Elem *' to 'LPCTSTR'
+          with
+          [
+              _Elem=char
+          ]
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(256): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(273): error C2664: 'int atoi(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(273): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(276): error C2664: 'bool CCommWork::OpenPort(std::string,int)': cannot convert argument 1 from 'wchar_t *' to 'std::string'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(276): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(280): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [6]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(280): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(284): error C2665: 'AfxMessageBox': none of the 2 overloads could convert all the argument types
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6549): note: could be 'int AfxMessageBox(UINT,UINT,UINT)'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6547): note: or       'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(284): note: while trying to match the argument list '(const char [17])'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(294): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [5]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(294): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(308): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [1]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(308): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(325): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(325): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(329): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(329): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(332): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(332): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(335): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(335): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(342): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(342): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(345): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(345): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(348): error C2664: 'void ATL::CStringT<wchar_t,StrTraitMFC_DLL<wchar_t,ATL::ChTraitsCRT<wchar_t>>>::Format(UINT,...)': cannot convert argument 1 from 'const char [5]' to 'const wchar_t *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(348): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(359): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(359): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(360): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(360): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(361): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(361): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(363): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(363): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(364): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [2]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(364): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(366): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [3]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(366): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(367): error C2664: 'void CWnd::SetWindowTextW(LPCTSTR)': cannot convert argument 1 from 'const char [4]' to 'LPCTSTR'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(367): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(391): error C2039: 'GetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(393): error C2039: 'GetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(408): error C2039: 'SetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(410): error C2039: 'SetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(412): error C2039: 'SetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(423): error C2039: 'GetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(425): error C2039: 'GetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(427): error C2039: 'GetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(435): error C2039: 'SetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(437): error C2039: 'SetWindowTextA': is not a member of 'CEdit'
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(3821): note: see declaration of 'CEdit'
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(473): error C2664: 'double atof(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(473): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(476): error C2664: 'double atof(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(476): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(479): error C2664: 'double atof(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(479): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(482): error C2664: 'double atof(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(482): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(485): error C2664: 'double atof(const char *)': cannot convert argument 1 from 'wchar_t *' to 'const char *'
+  c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\robotexp_4dlg.cpp(485): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  SharedMemory.cpp
+  SystemMemory.cpp
+c:\users\taeyoung\desktop\robotexp4_wednesday\robotexp_4\systemmemory.cpp(140): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  ThreadWorker.cpp
+  Generating Code...
