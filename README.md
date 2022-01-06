@@ -35,7 +35,25 @@ Anti windup을 추가하여 정상상태오차를 제거하였습니다.
 
 #### Target Position을 90 degree, Target Velocity를 10, Target Torque를 0.1로 설정했을 때 결과 
 
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148335226-193625d2-58ca-44bc-aaf3-8b1b16b87227.gif" width="600px"></p>  
+<p align="center"> < MFC(UI) 및 NTGraph 화면 ></p>  
+
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148335941-33d2686e-392c-424a-8d09-4ff0b8cb0b91.gif" width="360px"></p>  
+<p align="center"> < 실제 Motor 움직임 (x2) ></p>  
+
 #### Target Position을 -90 degree, Target Velocity를 50, Target Torque를 0.1로 설정했을 때 결과 
+
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148336697-282952f4-194a-4900-b91e-ea20070bc1be.gif" width="600px"></p>  
+<p align="center"> < MFC(UI) 및 NTGraph 화면 ></p> 
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148336382-5069344c-aadc-4177-b8ee-533a0a6d8e77.gif" width="360px"></p>  
+<p align="center"> < 실제 Motor 움직임 (x2) ></p>  
+  
 
 #### 위와 동일한 Position, Velocity일 때 Target Torque를 0.05, 0.2로 설정했을 때 결과
 
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148337243-bc05e5f9-be37-4ba9-81dd-84eb1465d2b3.gif" width="600px"></p>  
+<p align="center"> < MFC(UI) 및 NTGraph 화면 (x2) ></p> 
+  
+<p align="center"><img src="https://user-images.githubusercontent.com/41863759/148337468-7014612c-7672-4783-ad0f-ce95d2850a5c.gif" width="360px"></p>  
+<p align="center"> < 실제 Motor 움직임 (x2) ></p>  
